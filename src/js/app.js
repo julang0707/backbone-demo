@@ -70,13 +70,6 @@ var Listings = Backbone.Collection.extend({
   }
 });
 
-// var listings = new Listings({
-//   state: 'active'
-// });
-//
-// listings.fetch().done(function() {
-//   console.log(listings);
-// });
 
 var ListingView = Backbone.View.extend({
   template: _.template($('#itemTemplate').html(), {}),
